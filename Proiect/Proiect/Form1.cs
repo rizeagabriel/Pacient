@@ -115,7 +115,7 @@ namespace Proiect
                     conect.Open();
                     SqlCommand comanda = conect.CreateCommand();
                     comanda.CommandType = CommandType.Text;
-                    comanda.CommandText = "delete from dbo.pacienti where nume='" + textBox1.Text + "' AND prenume='" + textBox2.Text + "'";
+                    comanda.CommandText = "delete from dbo.pacienti where lower(nume)=lower('" + textBox1.Text + "') AND lower(prenume)=lower('" + textBox2.Text + "')";
                     progressBar1.PerformStep();
                     try
                     {
