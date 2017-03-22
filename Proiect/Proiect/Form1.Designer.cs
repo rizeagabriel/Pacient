@@ -219,7 +219,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(573, 274);
+            this.ClientSize = new System.Drawing.Size(570, 274);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.textBox5);
