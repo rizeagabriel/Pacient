@@ -29,6 +29,7 @@ namespace Proiect
             textBox3.ResetText();
             textBox4.ResetText();
             textBox5.ResetText();
+            textboxvarsta.ResetText();
         }
 
         public Form1()
@@ -40,7 +41,7 @@ namespace Proiect
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "")
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textboxvarsta.Text!="")
             {
                 progressBar1.PerformStep();
                 if (NetworkInterface.GetIsNetworkAvailable() == false)
@@ -54,7 +55,7 @@ namespace Proiect
                     conect.Open();
                     SqlCommand comanda = conect.CreateCommand();
                     comanda.CommandType = CommandType.Text;
-                    comanda.CommandText = "insert into dbo.pacienti values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textBox5.Text + "')";
+                    comanda.CommandText = "insert into dbo.pacienti values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textboxvarsta.Text + "','"+textBox5.Text+"')";
                     progressBar1.PerformStep();
                     try
                     {
