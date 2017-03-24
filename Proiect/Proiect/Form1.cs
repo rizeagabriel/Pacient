@@ -116,7 +116,7 @@ namespace Proiect
             butonSterge.Visible = false;
             this.BackColor = System.Drawing.ColorTranslator.FromHtml("#EFEFEF");
             panel2.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
-            panel1.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            panel1.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
             label1.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6"); 
             label2.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6"); 
             label3.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
@@ -130,7 +130,7 @@ namespace Proiect
         }
         private void pictureBoxInserare_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxInserare.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            pictureBoxInserare.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
         }
         private void pictureBoxStergere_MouseEnter(object sender, EventArgs e)
         {
@@ -138,7 +138,7 @@ namespace Proiect
         }
         private void pictureBoxStergere_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxStergere.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            pictureBoxStergere.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
         }
         private void pictureBoxAfisare_MouseEnter(object sender, EventArgs e)
         {
@@ -146,7 +146,7 @@ namespace Proiect
         }
         private void pictureBoxAfisare_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxAfisare.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            pictureBoxAfisare.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
         }
         private void pictureBoxIesire_MouseEnter(object sender, EventArgs e)
         {
@@ -154,7 +154,7 @@ namespace Proiect
         }
         private void pictureBoxIesire_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxIesire.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            pictureBoxIesire.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
         }
 
 

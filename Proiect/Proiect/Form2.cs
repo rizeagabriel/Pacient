@@ -60,10 +60,10 @@ namespace Proiect
         //++ CULORI
         private void Form2_Load(object sender, EventArgs e)
         {
-            panel1.BackColor= panel1.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            panel1.BackColor= panel1.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
             dataGridView1.BackgroundColor=System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
             dataGridView1.DefaultCellStyle.BackColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
-            dataGridView1.GridColor= System.Drawing.ColorTranslator.FromHtml("#333A56");
+            dataGridView1.GridColor= System.Drawing.ColorTranslator.FromHtml("#424b70");
             afisaredate();
             textBox1.Text = "Nume";
         }
