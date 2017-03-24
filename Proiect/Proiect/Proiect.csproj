@@ -26,8 +26,8 @@
     <TargetCulture>ro</TargetCulture>
     <ProductName>Pacient</ProductName>
     <PublisherName>Grupa</PublisherName>
-    <ApplicationRevision>3</ApplicationRevision>
-    <ApplicationVersion>2.0.1.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.0.2.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -135,8 +135,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Health-Sign-red-icon.ico" />
-    <Content Include="medic.ico" />
     <Content Include="Pills-red-icon2.ico" />
     <None Include="Resources\form2.png" />
     <None Include="Resources\minus.png" />

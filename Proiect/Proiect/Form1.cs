@@ -110,44 +110,51 @@ namespace Proiect
 
 
         //----------------------  FORM LOAD    --------------------------------------------------------------------------------------------------------
-
+        // + + CULORI
         private void Form1_Load(object sender, EventArgs e)
         {
             butonSterge.Visible = false;
+            this.BackColor = System.Drawing.ColorTranslator.FromHtml("#EFEFEF");
+            panel2.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
+            panel1.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
+            label1.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6"); 
+            label2.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6"); 
+            label3.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
+            label4.ForeColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6"); 
         }
 
         // ANIMATII MENIU ------------------------------------------------------------------------
         private void pictureBoxInserare_MouseEnter(object sender, EventArgs e)
         {
-            pictureBoxInserare.BackColor = Color.WhiteSmoke;
+            pictureBoxInserare.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
         }
         private void pictureBoxInserare_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxInserare.BackColor = Color.OrangeRed; 
+            pictureBoxInserare.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
         }
         private void pictureBoxStergere_MouseEnter(object sender, EventArgs e)
         {
-            pictureBoxStergere.BackColor = Color.WhiteSmoke;
+            pictureBoxStergere.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
         }
         private void pictureBoxStergere_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxStergere.BackColor = Color.OrangeRed;
+            pictureBoxStergere.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
         }
         private void pictureBoxAfisare_MouseEnter(object sender, EventArgs e)
         {
-            pictureBoxAfisare.BackColor = Color.WhiteSmoke;
+            pictureBoxAfisare.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
         }
         private void pictureBoxAfisare_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxAfisare.BackColor = Color.OrangeRed;
+            pictureBoxAfisare.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
         }
         private void pictureBoxIesire_MouseEnter(object sender, EventArgs e)
         {
-            pictureBoxIesire.BackColor = Color.WhiteSmoke;
+            pictureBoxIesire.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
         }
         private void pictureBoxIesire_MouseLeave(object sender, EventArgs e)
         {
-            pictureBoxIesire.BackColor = Color.OrangeRed;
+            pictureBoxIesire.BackColor = System.Drawing.ColorTranslator.FromHtml("#333A56");
         }
 
 

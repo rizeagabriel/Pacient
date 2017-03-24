@@ -67,8 +67,8 @@
             // 
             // butonInserare
             // 
-            this.butonInserare.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.butonInserare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butonInserare.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.butonInserare.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butonInserare.Location = new System.Drawing.Point(387, 265);
             this.butonInserare.Name = "butonInserare";
             this.butonInserare.Size = new System.Drawing.Size(123, 30);
@@ -122,11 +122,11 @@
             // 
             this.labelNume.AutoSize = true;
             this.labelNume.BackColor = System.Drawing.Color.Transparent;
-            this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNume.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelNume.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelNume.Location = new System.Drawing.Point(10, 19);
             this.labelNume.Name = "labelNume";
-            this.labelNume.Size = new System.Drawing.Size(60, 21);
+            this.labelNume.Size = new System.Drawing.Size(62, 21);
             this.labelNume.TabIndex = 7;
             this.labelNume.Text = "Nume :";
             // 
@@ -134,11 +134,11 @@
             // 
             this.labelPrenume.AutoSize = true;
             this.labelPrenume.BackColor = System.Drawing.Color.Transparent;
-            this.labelPrenume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrenume.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPrenume.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelPrenume.Location = new System.Drawing.Point(10, 54);
             this.labelPrenume.Name = "labelPrenume";
-            this.labelPrenume.Size = new System.Drawing.Size(80, 21);
+            this.labelPrenume.Size = new System.Drawing.Size(83, 21);
             this.labelPrenume.TabIndex = 8;
             this.labelPrenume.Text = "Prenume :";
             // 
@@ -146,11 +146,11 @@
             // 
             this.labelPuls.AutoSize = true;
             this.labelPuls.BackColor = System.Drawing.Color.Transparent;
-            this.labelPuls.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPuls.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelPuls.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelPuls.Location = new System.Drawing.Point(10, 124);
             this.labelPuls.Name = "labelPuls";
-            this.labelPuls.Size = new System.Drawing.Size(46, 21);
+            this.labelPuls.Size = new System.Drawing.Size(47, 21);
             this.labelPuls.TabIndex = 9;
             this.labelPuls.Text = "Puls :";
             // 
@@ -158,18 +158,18 @@
             // 
             this.labelTensiune.AutoSize = true;
             this.labelTensiune.BackColor = System.Drawing.Color.Transparent;
-            this.labelTensiune.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTensiune.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTensiune.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelTensiune.Location = new System.Drawing.Point(10, 159);
             this.labelTensiune.Name = "labelTensiune";
-            this.labelTensiune.Size = new System.Drawing.Size(77, 21);
+            this.labelTensiune.Size = new System.Drawing.Size(81, 21);
             this.labelTensiune.TabIndex = 10;
             this.labelTensiune.Text = "Tensiune :";
             // 
             // butonSterge
             // 
             this.butonSterge.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.butonSterge.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butonSterge.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.butonSterge.Location = new System.Drawing.Point(387, 265);
             this.butonSterge.Name = "butonSterge";
             this.butonSterge.Size = new System.Drawing.Size(123, 30);
@@ -182,11 +182,11 @@
             // 
             this.labelInfo.AutoSize = true;
             this.labelInfo.BackColor = System.Drawing.Color.Transparent;
-            this.labelInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelInfo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelInfo.Location = new System.Drawing.Point(10, 194);
             this.labelInfo.Name = "labelInfo";
-            this.labelInfo.Size = new System.Drawing.Size(85, 21);
+            this.labelInfo.Size = new System.Drawing.Size(90, 21);
             this.labelInfo.TabIndex = 14;
             this.labelInfo.Text = "Informatii :";
             // 
@@ -206,11 +206,11 @@
             // 
             this.labelVarsta.AutoSize = true;
             this.labelVarsta.BackColor = System.Drawing.Color.Transparent;
-            this.labelVarsta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVarsta.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelVarsta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.labelVarsta.Location = new System.Drawing.Point(10, 89);
             this.labelVarsta.Name = "labelVarsta";
-            this.labelVarsta.Size = new System.Drawing.Size(60, 21);
+            this.labelVarsta.Size = new System.Drawing.Size(62, 21);
             this.labelVarsta.TabIndex = 16;
             this.labelVarsta.Text = "Varsta :";
             // 
@@ -341,7 +341,7 @@
             // pictureBoxInserare
             // 
             this.pictureBoxInserare.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBoxInserare.BackColor = System.Drawing.Color.OrangeRed;
+            this.pictureBoxInserare.BackColor = System.Drawing.Color.Transparent;
             this.pictureBoxInserare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxInserare.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxInserare.Image")));
             this.pictureBoxInserare.Location = new System.Drawing.Point(139, 72);
