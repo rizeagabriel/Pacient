@@ -59,7 +59,12 @@
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:Proiect.Properties.Resources.Afisare">
+        <member name="P:Proiect.Properties.Resources._24">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Proiect.Properties.Resources.addbutton">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
@@ -69,12 +74,22 @@
               Looks up a localized string similar to mihaibarbu.
             </summary>
         </member>
-        <member name="P:Proiect.Properties.Resources.Iesire2">
+        <member name="P:Proiect.Properties.Resources.form2">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
-        <member name="P:Proiect.Properties.Resources.Inserare2">
+        <member name="P:Proiect.Properties.Resources.menu2">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Proiect.Properties.Resources.menuverde">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Proiect.Properties.Resources.minus">
             <summary>
               Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
@@ -82,11 +97,6 @@
         <member name="P:Proiect.Properties.Resources.Parola">
             <summary>
               Looks up a localized string similar to Is23ondatabase?.
-            </summary>
-        </member>
-        <member name="P:Proiect.Properties.Resources.Stergere">
-            <summary>
-              Looks up a localized resource of type System.Drawing.Bitmap.
             </summary>
         </member>
     </members>

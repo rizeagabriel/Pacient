@@ -27,7 +27,7 @@
     <ProductName>Pacient</ProductName>
     <PublisherName>Grupa</PublisherName>
     <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>2.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -136,6 +136,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="medic.ico" />
+    <None Include="Resources\form2.png" />
+    <None Include="Resources\minus.png" />
+    <None Include="Resources\addbutton.png" />
+    <None Include="Resources\addbuton2.png" />
+    <None Include="Resources\menu2.png" />
+    <None Include="Resources\menuverde.png" />
+    <None Include="Resources\24.png" />
     <None Include="Resources\Iesire2.png" />
     <None Include="Resources\Stergere.png" />
     <None Include="Resources\Inserare2.png" />

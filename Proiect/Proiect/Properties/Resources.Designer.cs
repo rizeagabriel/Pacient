@@ -63,9 +63,19 @@ namespace Proiect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Afisare {
+        internal static System.Drawing.Bitmap _24 {
             get {
-                object obj = ResourceManager.GetObject("Afisare", resourceCulture);
+                object obj = ResourceManager.GetObject("_24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap addbutton {
+            get {
+                object obj = ResourceManager.GetObject("addbutton", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -82,9 +92,9 @@ namespace Proiect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Iesire2 {
+        internal static System.Drawing.Bitmap form2 {
             get {
-                object obj = ResourceManager.GetObject("Iesire2", resourceCulture);
+                object obj = ResourceManager.GetObject("form2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -92,9 +102,29 @@ namespace Proiect.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Inserare2 {
+        internal static System.Drawing.Bitmap menu2 {
             get {
-                object obj = ResourceManager.GetObject("Inserare2", resourceCulture);
+                object obj = ResourceManager.GetObject("menu2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menuverde {
+            get {
+                object obj = ResourceManager.GetObject("menuverde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minus {
+            get {
+                object obj = ResourceManager.GetObject("minus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,16 +135,6 @@ namespace Proiect.Properties {
         internal static string Parola {
             get {
                 return ResourceManager.GetString("Parola", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Stergere {
-            get {
-                object obj = ResourceManager.GetObject("Stergere", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

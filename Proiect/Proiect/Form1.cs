@@ -113,7 +113,7 @@ namespace Proiect
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            butonSterge.Visible = false;
         }
 
         // ANIMATII MENIU ------------------------------------------------------------------------
@@ -201,9 +201,9 @@ namespace Proiect
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            if (x == 0) x += 1;
+            if (x == 0) { x += 1; pictureBox1.Image = Properties.Resources.menuverde; }
             else
-                x -= 1;
+            { x -= 1; pictureBox1.Image = Properties.Resources.menu2; }
         }
 
 
