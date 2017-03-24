@@ -26,7 +26,7 @@
     <TargetCulture>ro</TargetCulture>
     <ProductName>Pacient</ProductName>
     <PublisherName>Grupa</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>2.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -55,7 +55,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>medic.ico</ApplicationIcon>
+    <ApplicationIcon>Pills-red-icon2.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestCertificateThumbprint>8746EE441FA4D88DC6AE84DAF9C6C0BD29B836FB</ManifestCertificateThumbprint>
@@ -135,19 +135,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Health-Sign-red-icon.ico" />
     <Content Include="medic.ico" />
+    <Content Include="Pills-red-icon2.ico" />
     <None Include="Resources\form2.png" />
     <None Include="Resources\minus.png" />
     <None Include="Resources\addbutton.png" />
-    <None Include="Resources\addbuton2.png" />
     <None Include="Resources\menu2.png" />
     <None Include="Resources\menuverde.png" />
     <None Include="Resources\24.png" />
-    <None Include="Resources\Iesire2.png" />
-    <None Include="Resources\Stergere.png" />
-    <None Include="Resources\Inserare2.png" />
-    <None Include="Resources\Afisare.png" />
-    <None Include="Resources\Iesire.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">

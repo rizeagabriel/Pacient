@@ -69,7 +69,7 @@
             // 
             this.butonInserare.BackColor = System.Drawing.Color.WhiteSmoke;
             this.butonInserare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butonInserare.Location = new System.Drawing.Point(387, 267);
+            this.butonInserare.Location = new System.Drawing.Point(387, 265);
             this.butonInserare.Name = "butonInserare";
             this.butonInserare.Size = new System.Drawing.Size(123, 30);
             this.butonInserare.TabIndex = 7;
@@ -170,11 +170,11 @@
             // 
             this.butonSterge.BackColor = System.Drawing.Color.WhiteSmoke;
             this.butonSterge.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butonSterge.Location = new System.Drawing.Point(387, 266);
+            this.butonSterge.Location = new System.Drawing.Point(387, 265);
             this.butonSterge.Name = "butonSterge";
-            this.butonSterge.Size = new System.Drawing.Size(123, 31);
+            this.butonSterge.Size = new System.Drawing.Size(123, 30);
             this.butonSterge.TabIndex = 9;
-            this.butonSterge.Text = "Sterge";
+            this.butonSterge.Text = "Stergere";
             this.butonSterge.UseVisualStyleBackColor = false;
             this.butonSterge.Click += new System.EventHandler(this.button4_Click);
             // 

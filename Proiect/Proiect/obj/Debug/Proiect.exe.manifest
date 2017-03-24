@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Proiect.exe" version="2.0.1.0" publicKeyToken="0000000000000000" language="ro" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="medic.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="Proiect.exe" version="2.0.1.2" publicKeyToken="0000000000000000" language="ro" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Pills-red-icon2.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Proiect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -43,17 +43,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Proiect.exe" size="514472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Proiect.exe" size="135592">
       <assemblyIdentity name="Proiect" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iawODt/DV0HLEDfCwrd4fE4bOs2ikh0HTE4/Q/Er/zk=</dsig:DigestValue>
+        <dsig:DigestValue>s5i+bz+6rub0RR8DLPNipciwJm/JRKOUICEpo7/IJWE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="Health-Sign-red-icon.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ai9D5XbY+UWeaMadmj4ItnqZwCa3fKuvdaKYIJ07faE=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="medic.ico" size="446771">
     <hash>
       <dsig:Transforms>
@@ -61,6 +70,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>QGWfTFSUe53+UPCK7wfhTUDd4FG5acteuVcl19RdOZ4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pills-red-icon2.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nNFT410UQTAh8wm+vvznqN+3RWN50nvaa3EGETn0SrE=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Proiect.exe.config" size="552">
