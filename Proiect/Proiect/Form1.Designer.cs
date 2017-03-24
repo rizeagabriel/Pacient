@@ -28,238 +28,367 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.butonInserare = new System.Windows.Forms.Button();
+            this.textBoxNume = new System.Windows.Forms.TextBox();
+            this.textBoxPrenume = new System.Windows.Forms.TextBox();
+            this.textBoxPuls = new System.Windows.Forms.TextBox();
+            this.textBoxTensiune = new System.Windows.Forms.TextBox();
+            this.labelNume = new System.Windows.Forms.Label();
+            this.labelPrenume = new System.Windows.Forms.Label();
+            this.labelPuls = new System.Windows.Forms.Label();
+            this.labelTensiune = new System.Windows.Forms.Label();
+            this.butonSterge = new System.Windows.Forms.Button();
+            this.labelInfo = new System.Windows.Forms.Label();
+            this.textBoxInfo = new System.Windows.Forms.TextBox();
+            this.labelVarsta = new System.Windows.Forms.Label();
+            this.textBoxVarsta = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBoxIesire = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAfisare = new System.Windows.Forms.PictureBox();
+            this.pictureBoxStergere = new System.Windows.Forms.PictureBox();
+            this.pictureBoxInserare = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textboxvarsta = new System.Windows.Forms.TextBox();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIesire)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAfisare)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStergere)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInserare)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // butonInserare
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 267);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(98, 31);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Inserare";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.butonInserare.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.butonInserare.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butonInserare.Location = new System.Drawing.Point(387, 265);
+            this.butonInserare.Name = "butonInserare";
+            this.butonInserare.Size = new System.Drawing.Size(124, 31);
+            this.butonInserare.TabIndex = 7;
+            this.butonInserare.Text = "Inserare";
+            this.butonInserare.UseVisualStyleBackColor = false;
+            this.butonInserare.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // textBoxNume
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(116, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(98, 31);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Afisare Date";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.textBoxNume.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNume.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.textBoxNume.Location = new System.Drawing.Point(103, 16);
+            this.textBoxNume.Name = "textBoxNume";
+            this.textBoxNume.Size = new System.Drawing.Size(407, 29);
+            this.textBoxNume.TabIndex = 1;
             // 
-            // textBox1
+            // textBoxPrenume
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.textBox1.Location = new System.Drawing.Point(103, 14);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(334, 29);
-            this.textBox1.TabIndex = 1;
+            this.textBoxPrenume.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxPrenume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPrenume.Location = new System.Drawing.Point(103, 51);
+            this.textBoxPrenume.Name = "textBoxPrenume";
+            this.textBoxPrenume.Size = new System.Drawing.Size(407, 29);
+            this.textBoxPrenume.TabIndex = 2;
             // 
-            // textBox2
+            // textBoxPuls
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(103, 49);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(334, 29);
-            this.textBox2.TabIndex = 2;
+            this.textBoxPuls.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxPuls.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxPuls.Location = new System.Drawing.Point(103, 86);
+            this.textBoxPuls.Name = "textBoxPuls";
+            this.textBoxPuls.Size = new System.Drawing.Size(407, 29);
+            this.textBoxPuls.TabIndex = 3;
             // 
-            // textBox3
+            // textBoxTensiune
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(103, 84);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(334, 29);
-            this.textBox3.TabIndex = 3;
+            this.textBoxTensiune.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxTensiune.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTensiune.Location = new System.Drawing.Point(103, 121);
+            this.textBoxTensiune.Name = "textBoxTensiune";
+            this.textBoxTensiune.Size = new System.Drawing.Size(407, 29);
+            this.textBoxTensiune.TabIndex = 4;
             // 
-            // textBox4
+            // labelNume
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(103, 119);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(334, 29);
-            this.textBox4.TabIndex = 4;
+            this.labelNume.AutoSize = true;
+            this.labelNume.BackColor = System.Drawing.Color.Transparent;
+            this.labelNume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelNume.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelNume.Location = new System.Drawing.Point(10, 19);
+            this.labelNume.Name = "labelNume";
+            this.labelNume.Size = new System.Drawing.Size(60, 21);
+            this.labelNume.TabIndex = 7;
+            this.labelNume.Text = "Nume :";
+            // 
+            // labelPrenume
+            // 
+            this.labelPrenume.AutoSize = true;
+            this.labelPrenume.BackColor = System.Drawing.Color.Transparent;
+            this.labelPrenume.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPrenume.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelPrenume.Location = new System.Drawing.Point(10, 54);
+            this.labelPrenume.Name = "labelPrenume";
+            this.labelPrenume.Size = new System.Drawing.Size(80, 21);
+            this.labelPrenume.TabIndex = 8;
+            this.labelPrenume.Text = "Prenume :";
+            // 
+            // labelPuls
+            // 
+            this.labelPuls.AutoSize = true;
+            this.labelPuls.BackColor = System.Drawing.Color.Transparent;
+            this.labelPuls.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPuls.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelPuls.Location = new System.Drawing.Point(10, 89);
+            this.labelPuls.Name = "labelPuls";
+            this.labelPuls.Size = new System.Drawing.Size(46, 21);
+            this.labelPuls.TabIndex = 9;
+            this.labelPuls.Text = "Puls :";
+            // 
+            // labelTensiune
+            // 
+            this.labelTensiune.AutoSize = true;
+            this.labelTensiune.BackColor = System.Drawing.Color.Transparent;
+            this.labelTensiune.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTensiune.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelTensiune.Location = new System.Drawing.Point(10, 124);
+            this.labelTensiune.Name = "labelTensiune";
+            this.labelTensiune.Size = new System.Drawing.Size(77, 21);
+            this.labelTensiune.TabIndex = 10;
+            this.labelTensiune.Text = "Tensiune :";
+            // 
+            // butonSterge
+            // 
+            this.butonSterge.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.butonSterge.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butonSterge.Location = new System.Drawing.Point(387, 265);
+            this.butonSterge.Name = "butonSterge";
+            this.butonSterge.Size = new System.Drawing.Size(123, 31);
+            this.butonSterge.TabIndex = 9;
+            this.butonSterge.Text = "Sterge";
+            this.butonSterge.UseVisualStyleBackColor = false;
+            this.butonSterge.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // labelInfo
+            // 
+            this.labelInfo.AutoSize = true;
+            this.labelInfo.BackColor = System.Drawing.Color.Transparent;
+            this.labelInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInfo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelInfo.Location = new System.Drawing.Point(10, 194);
+            this.labelInfo.Name = "labelInfo";
+            this.labelInfo.Size = new System.Drawing.Size(85, 21);
+            this.labelInfo.TabIndex = 14;
+            this.labelInfo.Text = "Informatii :";
+            // 
+            // textBoxInfo
+            // 
+            this.textBoxInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxInfo.Location = new System.Drawing.Point(103, 191);
+            this.textBoxInfo.Multiline = true;
+            this.textBoxInfo.Name = "textBoxInfo";
+            this.textBoxInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxInfo.Size = new System.Drawing.Size(407, 68);
+            this.textBoxInfo.TabIndex = 6;
+            // 
+            // labelVarsta
+            // 
+            this.labelVarsta.AutoSize = true;
+            this.labelVarsta.BackColor = System.Drawing.Color.Transparent;
+            this.labelVarsta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelVarsta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labelVarsta.Location = new System.Drawing.Point(10, 159);
+            this.labelVarsta.Name = "labelVarsta";
+            this.labelVarsta.Size = new System.Drawing.Size(60, 21);
+            this.labelVarsta.TabIndex = 16;
+            this.labelVarsta.Text = "Varsta :";
+            // 
+            // textBoxVarsta
+            // 
+            this.textBoxVarsta.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBoxVarsta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxVarsta.Location = new System.Drawing.Point(103, 156);
+            this.textBoxVarsta.Name = "textBoxVarsta";
+            this.textBoxVarsta.Size = new System.Drawing.Size(407, 29);
+            this.textBoxVarsta.TabIndex = 5;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.label1);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.pictureBoxIesire);
+            this.panel1.Controls.Add(this.pictureBoxAfisare);
+            this.panel1.Controls.Add(this.pictureBoxStergere);
+            this.panel1.Controls.Add(this.pictureBoxInserare);
+            this.panel1.Location = new System.Drawing.Point(-140, -4);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 305);
+            this.panel1.TabIndex = 17;
+            // 
+            // pictureBoxIesire
+            // 
+            this.pictureBoxIesire.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxIesire.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxIesire.Image = global::Proiect.Properties.Resources.Iesire2;
+            this.pictureBoxIesire.Location = new System.Drawing.Point(139, 259);
+            this.pictureBoxIesire.Name = "pictureBoxIesire";
+            this.pictureBoxIesire.Size = new System.Drawing.Size(61, 45);
+            this.pictureBoxIesire.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxIesire.TabIndex = 3;
+            this.pictureBoxIesire.TabStop = false;
+            this.pictureBoxIesire.Click += new System.EventHandler(this.pictureBoxIesire_Click);
+            this.pictureBoxIesire.MouseEnter += new System.EventHandler(this.pictureBoxIesire_MouseEnter);
+            this.pictureBoxIesire.MouseLeave += new System.EventHandler(this.pictureBoxIesire_MouseLeave);
+            // 
+            // pictureBoxAfisare
+            // 
+            this.pictureBoxAfisare.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxAfisare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxAfisare.Image = global::Proiect.Properties.Resources.Afisare;
+            this.pictureBoxAfisare.Location = new System.Drawing.Point(139, 170);
+            this.pictureBoxAfisare.Name = "pictureBoxAfisare";
+            this.pictureBoxAfisare.Size = new System.Drawing.Size(61, 50);
+            this.pictureBoxAfisare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxAfisare.TabIndex = 2;
+            this.pictureBoxAfisare.TabStop = false;
+            this.pictureBoxAfisare.Click += new System.EventHandler(this.pictureBoxAfisare_Click);
+            this.pictureBoxAfisare.MouseEnter += new System.EventHandler(this.pictureBoxAfisare_MouseEnter);
+            this.pictureBoxAfisare.MouseLeave += new System.EventHandler(this.pictureBoxAfisare_MouseLeave);
+            // 
+            // pictureBoxStergere
+            // 
+            this.pictureBoxStergere.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxStergere.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxStergere.Image = global::Proiect.Properties.Resources.Stergere;
+            this.pictureBoxStergere.Location = new System.Drawing.Point(139, 121);
+            this.pictureBoxStergere.Name = "pictureBoxStergere";
+            this.pictureBoxStergere.Size = new System.Drawing.Size(61, 50);
+            this.pictureBoxStergere.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxStergere.TabIndex = 1;
+            this.pictureBoxStergere.TabStop = false;
+            this.pictureBoxStergere.Click += new System.EventHandler(this.pictureBoxStergere_Click);
+            this.pictureBoxStergere.MouseEnter += new System.EventHandler(this.pictureBoxStergere_MouseEnter);
+            this.pictureBoxStergere.MouseLeave += new System.EventHandler(this.pictureBoxStergere_MouseLeave);
+            // 
+            // pictureBoxInserare
+            // 
+            this.pictureBoxInserare.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBoxInserare.BackColor = System.Drawing.Color.OrangeRed;
+            this.pictureBoxInserare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxInserare.Image = global::Proiect.Properties.Resources.Inserare2;
+            this.pictureBoxInserare.Location = new System.Drawing.Point(139, 72);
+            this.pictureBoxInserare.Margin = new System.Windows.Forms.Padding(3, 3, 0, 0);
+            this.pictureBoxInserare.Name = "pictureBoxInserare";
+            this.pictureBoxInserare.Size = new System.Drawing.Size(61, 50);
+            this.pictureBoxInserare.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxInserare.TabIndex = 0;
+            this.pictureBoxInserare.TabStop = false;
+            this.pictureBoxInserare.Click += new System.EventHandler(this.pictureBoxInserare_Click);
+            this.pictureBoxInserare.MouseEnter += new System.EventHandler(this.pictureBoxInserare_MouseEnter);
+            this.pictureBoxInserare.MouseLeave += new System.EventHandler(this.pictureBoxInserare_MouseLeave);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Location = new System.Drawing.Point(143, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(54, 50);
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.panel2.Controls.Add(this.butonInserare);
+            this.panel2.Controls.Add(this.textBoxVarsta);
+            this.panel2.Controls.Add(this.labelVarsta);
+            this.panel2.Controls.Add(this.textBoxNume);
+            this.panel2.Controls.Add(this.textBoxPrenume);
+            this.panel2.Controls.Add(this.textBoxInfo);
+            this.panel2.Controls.Add(this.textBoxPuls);
+            this.panel2.Controls.Add(this.labelInfo);
+            this.panel2.Controls.Add(this.textBoxTensiune);
+            this.panel2.Controls.Add(this.labelNume);
+            this.panel2.Controls.Add(this.labelPrenume);
+            this.panel2.Controls.Add(this.labelTensiune);
+            this.panel2.Controls.Add(this.labelPuls);
+            this.panel2.Controls.Add(this.butonSterge);
+            this.panel2.Location = new System.Drawing.Point(59, -1);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(525, 302);
+            this.panel2.TabIndex = 18;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(12, 17);
+            this.label1.Location = new System.Drawing.Point(12, 88);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 21);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Nume* :";
+            this.label1.Size = new System.Drawing.Size(117, 21);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Adauga pacient";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(12, 52);
+            this.label2.Location = new System.Drawing.Point(12, 135);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 21);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Prenume* :";
+            this.label2.Size = new System.Drawing.Size(108, 21);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Sterge pacient";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(12, 87);
+            this.label3.Location = new System.Drawing.Point(12, 182);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(46, 21);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Puls :";
+            this.label3.Size = new System.Drawing.Size(101, 21);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "Afiseaza date";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(12, 122);
+            this.label4.Location = new System.Drawing.Point(15, 270);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 21);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Tensiune :";
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(443, 267);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 31);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Inchide";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(220, 267);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(107, 31);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "Sterge Pacient*";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(12, 192);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 21);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Informatii :";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(103, 189);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(334, 68);
-            this.textBox5.TabIndex = 6;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(333, 267);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(104, 31);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "Despre";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.ForeColor = System.Drawing.Color.LightBlue;
-            this.progressBar1.Location = new System.Drawing.Point(-4, 304);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(579, 10);
-            this.progressBar1.TabIndex = 15;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(12, 157);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 21);
-            this.label6.TabIndex = 16;
-            this.label6.Text = "Varsta :";
-            // 
-            // textboxvarsta
-            // 
-            this.textboxvarsta.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textboxvarsta.Location = new System.Drawing.Point(103, 154);
-            this.textboxvarsta.Name = "textboxvarsta";
-            this.textboxvarsta.Size = new System.Drawing.Size(334, 29);
-            this.textboxvarsta.TabIndex = 5;
+            this.label4.Size = new System.Drawing.Size(60, 21);
+            this.label4.TabIndex = 22;
+            this.label4.Text = "Inchide";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(570, 308);
-            this.Controls.Add(this.textboxvarsta);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(578, 300);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -268,31 +397,47 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Date Pacient";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIesire)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAfisare)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStergere)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInserare)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button butonInserare;
+        private System.Windows.Forms.TextBox textBoxNume;
+        private System.Windows.Forms.TextBox textBoxPrenume;
+        private System.Windows.Forms.TextBox textBoxPuls;
+        private System.Windows.Forms.TextBox textBoxTensiune;
+        private System.Windows.Forms.Label labelNume;
+        private System.Windows.Forms.Label labelPrenume;
+        private System.Windows.Forms.Label labelPuls;
+        private System.Windows.Forms.Label labelTensiune;
+        private System.Windows.Forms.Button butonSterge;
+        private System.Windows.Forms.Label labelInfo;
+        private System.Windows.Forms.TextBox textBoxInfo;
+        private System.Windows.Forms.Label labelVarsta;
+        private System.Windows.Forms.TextBox textBoxVarsta;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBoxIesire;
+        private System.Windows.Forms.PictureBox pictureBoxAfisare;
+        private System.Windows.Forms.PictureBox pictureBoxStergere;
+        private System.Windows.Forms.PictureBox pictureBoxInserare;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textboxvarsta;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }
 

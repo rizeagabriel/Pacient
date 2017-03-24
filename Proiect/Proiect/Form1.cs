@@ -13,65 +13,58 @@ using System.Net.NetworkInformation;
 namespace Proiect
 {
 
-    
+
     public partial class Form1 : Form
     {
         // -------------- INIT. INTERNET SI BAZA DATE ---------------------------------------------------------------------------------------------------
-        
-        SqlConnection conect = new SqlConnection(@"Data Source=pacienti.database.windows.net;Initial Catalog=database;Integrated Security=False;User ID="+Properties.Resources.Cont.ToString()+";Password="+Properties.Resources.Parola.ToString()+";Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-        
+
+        SqlConnection conect = new SqlConnection(@"Data Source=pacienti.database.windows.net;Initial Catalog=database;Integrated Security=False;User ID=" + Properties.Resources.Cont.ToString() + ";Password=" + Properties.Resources.Parola.ToString() + ";Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        int x = 0;
         // -------------------- FUNCTIE RESET TEXT BOX  --------------------------------------------------------------------------------------------------
 
-        private  void resetbox()
+        private void resetbox()
         {
-            textBox1.ResetText();
-            textBox2.ResetText();
-            textBox3.ResetText();
-            textBox4.ResetText();
-            textBox5.ResetText();
-            textboxvarsta.ResetText();
+            textBoxNume.ResetText();
+            textBoxPrenume.ResetText();
+            textBoxPuls.ResetText();
+            textBoxTensiune.ResetText();
+            textBoxInfo.ResetText();
+            textBoxVarsta.ResetText();
         }
 
         public Form1()
         {
-            InitializeComponent();    
+            InitializeComponent();
         }
-       
+
         //-----------------------  ADAUGA PACIENT   ----------------------------------------------------------------------------
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textboxvarsta.Text!="")
+            if (textBoxNume.Text != "" && textBoxPrenume.Text != "" && textBoxPuls.Text != "" && textBoxTensiune.Text != "" && textBoxVarsta.Text != "")
             {
-                progressBar1.PerformStep();
                 if (NetworkInterface.GetIsNetworkAvailable() == false)
                 {
                     MessageBox.Show("Lipsa internet !", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    progressBar1.Value = 0;
                 }
                 else
                 {
-                    progressBar1.PerformStep();
                     conect.Open();
                     SqlCommand comanda = conect.CreateCommand();
                     comanda.CommandType = CommandType.Text;
-                    comanda.CommandText = "insert into dbo.pacienti values('" + textBox1.Text + "','" + textBox2.Text + "','" + textBox3.Text + "','" + textBox4.Text + "','" + textboxvarsta.Text + "','"+textBox5.Text+"')";
-                    progressBar1.PerformStep();
+                    comanda.CommandText = "insert into dbo.pacienti values('" + textBoxNume.Text + "','" + textBoxPrenume.Text + "','" + textBoxPuls.Text + "','" + textBoxTensiune.Text + "','" + textBoxVarsta.Text + "','" + textBoxInfo.Text + "')";
                     try
                     {
                         comanda.ExecuteNonQuery();
-                        progressBar1.PerformStep();
                         MessageBox.Show("Inserat cu succes !", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         resetbox();
                     }
                     catch
                     {
                         MessageBox.Show("Date introduse gresit !", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        progressBar1.Value = 0;
                     }
                     conect.Close();
                 }
-                progressBar1.Value = 0;
             }
             else
             {
@@ -79,60 +72,35 @@ namespace Proiect
             }
         }
 
-        //----------------------- INCHIDE   -----------------------------------------------------------------------------------------------------
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        //------------------- AFISARE DATE  ----------------------------------------------------------------------------------------------------
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            progressBar1.PerformStep();
-            progressBar1.PerformStep();
-            Form2 forma2 = new Form2();
-            progressBar1.PerformStep();
-            forma2.Show();
-            progressBar1.Value = 0;
-        }
 
         //---------------------- STERGE PACIENT --------------------------------------------------------------------------------------------------
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text!="" && textBox2.Text!="")
+            if (textBoxNume.Text != "" && textBoxPrenume.Text != "")
             {
-                progressBar1.PerformStep();
                 if (NetworkInterface.GetIsNetworkAvailable() == false)
                 {
                     MessageBox.Show("Lipsa internet !", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    progressBar1.Value = 0;
                 }
                 else
                 {
-                    progressBar1.PerformStep();
                     conect.Open();
                     SqlCommand comanda = conect.CreateCommand();
                     comanda.CommandType = CommandType.Text;
-                    comanda.CommandText = "delete from dbo.pacienti where lower(nume)=lower('" + textBox1.Text + "') AND lower(prenume)=lower('" + textBox2.Text + "')";
-                    progressBar1.PerformStep();
+                    comanda.CommandText = "delete from dbo.pacienti where lower(nume)=lower('" + textBoxNume.Text + "') AND lower(prenume)=lower('" + textBoxPrenume.Text + "')";
                     try
                     {
                         comanda.ExecuteNonQuery();
-                        progressBar1.PerformStep();
                         MessageBox.Show("Sters cu succes !", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         resetbox();
                     }
                     catch
                     {
                         MessageBox.Show("Eroare !", "Eroare", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        progressBar1.Value = 0;
                     }
                     conect.Close();
                 }
-                progressBar1.Value=0;
             }
             else
             {
@@ -141,21 +109,125 @@ namespace Proiect
         }
 
 
-        //---------------------- DESPRE (informatii)    --------------------------------------------------------------------------------------------------
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Inserare : Numele, Prenumele, Pulsul si Tensiunea pacientului trebuiesc introduse !"+Environment.NewLine+"Afisare Date : Se va afisa o fereastra ce contine toate datele stocate"+Environment.NewLine+"Stergere pacient : Se va sterge pacientul cu Numele si Prenumele introduse !","Despre",MessageBoxButtons.OK);
-        }
-
-       //----------------------  FORM LOAD    --------------------------------------------------------------------------------------------------------
+        //----------------------  FORM LOAD    --------------------------------------------------------------------------------------------------------
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            progressBar1.Maximum = 100;
-            progressBar1.Minimum = 0;
-            progressBar1.Step = 30;
+            
         }
 
+        // ANIMATII MENIU ------------------------------------------------------------------------
+        private void pictureBoxInserare_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBoxInserare.BackColor = Color.WhiteSmoke;
+        }
+        private void pictureBoxInserare_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBoxInserare.BackColor = Color.OrangeRed; 
+        }
+        private void pictureBoxStergere_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBoxStergere.BackColor = Color.WhiteSmoke;
+        }
+        private void pictureBoxStergere_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBoxStergere.BackColor = Color.OrangeRed;
+        }
+        private void pictureBoxAfisare_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBoxAfisare.BackColor = Color.WhiteSmoke;
+        }
+        private void pictureBoxAfisare_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBoxAfisare.BackColor = Color.OrangeRed;
+        }
+        private void pictureBoxIesire_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBoxIesire.BackColor = Color.WhiteSmoke;
+        }
+        private void pictureBoxIesire_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBoxIesire.BackColor = Color.OrangeRed;
+        }
+
+
+        // BUTON MENIU INCHIDERE ---------------------------------------------------
+        private void pictureBoxIesire_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        // BUTON MENIU INSERARE ----------------------------------------------------
+        private void pictureBoxInserare_Click(object sender, EventArgs e)
+        {
+            butonInserare.Visible = true;
+            butonSterge.Visible=false;
+
+            textBoxInfo.Show();
+            textBoxPuls.Show();
+            textBoxTensiune.Show();
+            textBoxVarsta.Show();
+
+            labelPuls.Show();
+            labelTensiune.Show();
+            labelVarsta.Show();
+            labelInfo.Show();
+        }
+
+        // BUTON MENIU STERGERE -------------------------------------------------------------------------------
+        private void pictureBoxStergere_Click(object sender, EventArgs e)
+        {
+            butonInserare.Visible = false;
+            butonSterge.Visible = true;
+
+            textBoxInfo.Hide();
+            textBoxPuls.Hide();
+            textBoxTensiune.Hide();
+            textBoxVarsta.Hide();
+
+            labelPuls.Hide();
+            labelTensiune.Hide();
+            labelVarsta.Hide();
+            labelInfo.Hide();
+        }
+
+        // BUTON MENIU AFISARE --------------------------------------------------------
+        private void pictureBoxAfisare_Click(object sender, EventArgs e)
+        {
+            Form2 forma2 = new Form2();
+            forma2.Show();
+        }
+
+        // PORNIRE ANIMATIE MENIU
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+            if (x == 0) x += 1;
+            else
+                x -= 1;
+        }
+
+
+        // ANIMATIE MENIU ----------------------------------
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            switch (x) {
+                case 0:
+                    if (panel1.Location.X > -140)
+                    {
+                        panel1.Location = new Point(panel1.Location.X - 14, panel1.Location.Y);
+                        panel2.Location = new Point(panel2.Location.X - 14, panel2.Location.Y);
+                        Refresh();
+                    }
+                    break;
+                case 1:
+                    if (panel1.Location.X < 0)
+                    {
+                        panel1.Location = new Point(panel1.Location.X + 14, panel1.Location.Y);
+                        panel2.Location = new Point(panel2.Location.X + 14, panel2.Location.Y);
+                        Refresh();
+                    }
+                    break;
+            }
+        }
     }
 }
