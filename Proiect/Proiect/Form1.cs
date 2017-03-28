@@ -56,7 +56,8 @@ namespace Proiect
                     try
                     {
                         comanda.ExecuteNonQuery();
-                        MessageBox.Show("Inserat cu succes !", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MetPuls MetPuls = new MetPuls();
+                        MetPuls.Show();
                         resetbox();
                     }
                     catch

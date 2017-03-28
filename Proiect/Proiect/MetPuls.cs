@@ -19,7 +19,7 @@ namespace Proiect
         // + + CULORI
         private void MetPuls_Load(object sender, EventArgs e)
         {
-            this.BackColor = System.Drawing.ColorTranslator.FromHtml("#EFEFEF");
+            BackColor = System.Drawing.ColorTranslator.FromHtml("#EFEFEF");
         }
     }
 }
