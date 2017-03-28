@@ -46,3 +46,4 @@ C:\Users\gab\Desktop\Repos\Proiect\Proiect\obj\Debug\Proiect.exe.manifest
 C:\Users\gab\Desktop\Repos\Proiect\Proiect\obj\Debug\Proiect.application
 C:\Users\gab\Desktop\Repos\Proiect\Proiect\obj\Debug\Proiect.exe
 C:\Users\gab\Desktop\Repos\Proiect\Proiect\obj\Debug\Proiect.pdb
+C:\Users\gab\Desktop\Repos\Proiect\Proiect\obj\Debug\Proiect.MetPuls.resources
