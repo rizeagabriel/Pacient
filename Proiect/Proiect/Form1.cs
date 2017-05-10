@@ -57,6 +57,13 @@ namespace Proiect
                     {
                         comanda.ExecuteNonQuery();
                         MetPuls MetPuls = new MetPuls();
+                        MetPuls.label1.Text = textBoxNume.Text + " " + textBoxPrenume.Text;
+                        MetPuls.label2.Text = "Puls:"; 
+                        MetPuls.label6.Text= textBoxPuls.Text;
+                        MetPuls.label4.Text = "Tensiune:";
+                            MetPuls.label7.Text=textBoxTensiune.Text;
+                        MetPuls.label5.Text = "Varsta:";
+                        MetPuls.label8.Text= textBoxVarsta.Text;
                         MetPuls.Show();
                         resetbox();
                     }

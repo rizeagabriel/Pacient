@@ -65,7 +65,7 @@ namespace Proiect
             dataGridView1.DefaultCellStyle.BackColor= System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
             dataGridView1.GridColor= System.Drawing.ColorTranslator.FromHtml("#424b70");
             afisaredate();
-            textBox1.Text = "Nume";
+            textBox1.Text = "Cautare dupa Nume";
         }
 
         //----------------------- TIMER   -----------------------------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@ namespace Proiect
         //buton refresh si inchide
         private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "Nume";
+            textBox1.Text = "Cautare dupa Nume";
             afisaredate();
         }
 
@@ -85,14 +85,14 @@ namespace Proiect
         // pentru textBox
         private void TextInBox(object sender, EventArgs e)
         {
-            if(textBox1.Text=="Nume")textBox1.Text = "";
+            if(textBox1.Text== "Cautare dupa Nume") textBox1.Text = "";
         }
 
         private void TextOutBox(object sender, EventArgs e)
         {
             if(textBox1.Text == "" || textBox1.Text==" ")
             {
-                textBox1.Text = "Nume";
+                textBox1.Text = "Cautare dupa Nume";
             }
         }
 
