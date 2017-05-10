@@ -25,7 +25,7 @@ namespace Proiect
             label2.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
             label1.ForeColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
             label2.ForeColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
-            panel2.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
+            
             label3.BackColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
             label3.Visible = false;
             label4.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
@@ -38,17 +38,32 @@ namespace Proiect
             label7.ForeColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
             label8.BackColor = System.Drawing.ColorTranslator.FromHtml("#424b70");
             label8.ForeColor = System.Drawing.ColorTranslator.FromHtml("#F7F5E6");
+            aflareTens();
         }
-        
+
         public void aflareTens()
         {
             int x = Convert.ToInt16(label6.Text);
-            if(x>= 40 && x <= 60)
+            int y = Convert.ToInt16(label7.Text);
+            if ((x >= 40 && x <= 60 )&& (y>=70 && y<=90))
             {
                 label3.Text = "Sub Tensiune";
-                pictureBox1.Image = Properties.Resources.;
+                // pictureBox1.Image = Properties.Resources
             }
+            if ((x >= 60 && x <= 80) && (y>=90 && y<=120))
+            {
+                label3.Text = "Tensiune normala";
 
+            }
+            if ((x >= 80 && x <= 90) && (y>=120 && y<=140))
+            {
+                label3.Text = "Testiune crescuta";
+            }
+            if(x>=90 && y>=140)
+            {
+                label3.Text = "Hipertensiune";
+            }
+            
         }
         
     }

@@ -118,33 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="addbutton" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAIsAAACLAUZlsz8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABTElEQVRIS7WWPW7CQBCFt0FKk5ZzwBkouQmXIKdAossJKDgBB6DIEVJRp02KOO9bZq3BniBHZEb6
-        JDPz5tn7Z1O6rvsVxVysxVYcxcXgmhy1edTbiJOlzMSL+BIkPsVZ7A2uyVFDw81modcoUcpCvIlvsRNL
-        MWomZzU0aOlZjHQ3P0rZCJ7oXax87R5orYfezU3NiXhyBAfx7EVToMd68ehH0ooMlyHyFH82b9BrHnjV
-        aW0FFpR5vDstiieIag08BF5b+123IsPaDcVDFK8Q1Tx4CTzxrnuZ7DISexQniGoevAQXeNc9zJ4O97FH
-        MfUGrCmeeNdTeY6EQxSTbgB4Crzr0d8HAhaUOa+mxofhc2hGC6/gxOOdf4P0KUpf5PRtmnvQLJH3qrBk
-        7svOinmvayfK++D0ietIGCLz+L+fzD55bc756HsUD/5t6coPPTyRxXhydCEAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="Cont" xml:space="preserve">
-    <value>mihaibarbu</value>
-  </data>
-  <data name="form2" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAXcAAAF3ATuJpW8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABTklEQVRIS83Vr0tDURQH8GMY2ATLZMW6IujC0oLbX2DbkhgXNFmGQcxW44rBoCwK/gE2UcFmNAoO
-        LNoEn98zz4Vz7u6b5z0M78EH3jn3/IDdB6Msy1zwdOBRdFI1KclkCp4xPIlxqiYlmfxP6SRRE7ry3oPz
-        HD2p6UJTzwjmE0QT4JepxCOJU0ZSM5V4omfNzkxA1JLCoA01WMvBZ1yje1pmpgmIBqqQvcAh7OTgM67R
-        PQMz0wTzC8qo3oJreIhyi7gX3MAFLMGJ5DzcC+qSW4U3+IYjiC+ae14h9LkX3MMWXEn8CdsQf6rrcAeh
-        r3qXXFShBfy778Olyv3FveAAdiV/JjkP94K25DbgCz5gE5YjK3ALoc+9gL+aY3hWuVPYiwzhHUJNtS65
-        jIUL+qqwrL6ZaQKiBvCF6oYiuLdhZupglvi9tPhPxIN7hnZeRj8DxoSxC/TewAAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="menu2" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -154,14 +127,8 @@
         iAAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="menuverde" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
-        TUUH4QMYDDAbn/hhXAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABaSURBVEhL
-        YxgFAw8m3o2smHgnagNNMNBsBiDjBhD/pxG+wTDptid7//0IBVpgkNnQgBoFAwkm3Y1aBYztF7TAILNp
-        b8EoGHhA86ICGNu0LexoXlyPggEGDAwA9l/UYI/JrrgAAAAASUVORK5CYII=
-</value>
+  <data name="Parola" xml:space="preserve">
+    <value>Is23ondatabase?</value>
   </data>
   <data name="minus" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -175,8 +142,29 @@
         j39bivAEJsW8KZAHa7cAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Parola" xml:space="preserve">
-    <value>Is23ondatabase?</value>
+  <data name="form2" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAXcAAAF3ATuJpW8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAABTklEQVRIS83Vr0tDURQH8GMY2ATLZMW6IujC0oLbX2DbkhgXNFmGQcxW44rBoCwK/gE2UcFmNAoO
+        LNoEn98zz4Vz7u6b5z0M78EH3jn3/IDdB6Msy1zwdOBRdFI1KclkCp4xPIlxqiYlmfxP6SRRE7ry3oPz
+        HD2p6UJTzwjmE0QT4JepxCOJU0ZSM5V4omfNzkxA1JLCoA01WMvBZ1yje1pmpgmIBqqQvcAh7OTgM67R
+        PQMz0wTzC8qo3oJreIhyi7gX3MAFLMGJ5DzcC+qSW4U3+IYjiC+ae14h9LkX3MMWXEn8CdsQf6rrcAeh
+        r3qXXFShBfy778Olyv3FveAAdiV/JjkP94K25DbgCz5gE5YjK3ALoc+9gL+aY3hWuVPYiwzhHUJNtS65
+        jIUL+qqwrL6ZaQKiBvCF6oYiuLdhZupglvi9tPhPxIN7hnZeRj8DxoSxC/TewAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="menuverde" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJ
+        TUUH4QMYDDAbn/hhXAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAABaSURBVEhL
+        YxgFAw8m3o2smHgnagNNMNBsBiDjBhD/pxG+wTDptid7//0IBVpgkNnQgBoFAwkm3Y1aBYztF7TAILNp
+        b8EoGHhA86ICGNu0LexoXlyPggEGDAwA9l/UYI/JrrgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Cont" xml:space="preserve">
+    <value>mihaibarbu</value>
   </data>
   <data name="_24" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -194,4 +182,17 @@
         gg==
 </value>
   </data>
+  <data name="addbutton" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAAIsAAACLAUZlsz8AAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAABTElEQVRIS7WWPW7CQBCFt0FKk5ZzwBkouQmXIKdAossJKDgBB6DIEVJRp02KOO9bZq3BniBHZEb6
+        JDPz5tn7Z1O6rvsVxVysxVYcxcXgmhy1edTbiJOlzMSL+BIkPsVZ7A2uyVFDw81modcoUcpCvIlvsRNL
+        MWomZzU0aOlZjHQ3P0rZCJ7oXax87R5orYfezU3NiXhyBAfx7EVToMd68ehH0ooMlyHyFH82b9BrHnjV
+        aW0FFpR5vDstiieIag08BF5b+123IsPaDcVDFK8Q1Tx4CTzxrnuZ7DISexQniGoevAQXeNc9zJ4O97FH
+        MfUGrCmeeNdTeY6EQxSTbgB4Crzr0d8HAhaUOa+mxofhc2hGC6/gxOOdf4P0KUpf5PRtmnvQLJH3qrBk
+        7svOinmvayfK++D0ietIGCLz+L+fzD55bc756HsUD/5t6coPPTyRxXhydCEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
 </root>
